@@ -1,8 +1,0 @@
-#!/bin/bash
-mkdir ~/cp
-touch ~/cp/cp1.txt
-echo "copytest" > ~/cp/cp1.txt
-for n in {1..1000000000}
-do
-echo "$(( n * n )) "  >> ~/cp/cp1.txt
-done
