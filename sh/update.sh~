@@ -1,7 +1,0 @@
-#!/bin/bash
-sudo su
-aptitude update 
-aptitude upgrade -y
-apt-get autoremove 
-aptitude autoclean
-echo done
