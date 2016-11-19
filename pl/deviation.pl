@@ -4,7 +4,7 @@ my @line=<$file>;
 my $sample= @line;
 my $sum=0;
 foreach my $m(@line){
-  $sum=+ $m;
+  $sum= $sum+$m;
 }
 my $ave= $sum/$sample; 
 my $dispersion=0;
