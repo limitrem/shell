@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-open (my $file,"<","sample.txt") or die "this file doesn't exsist!:\!";
+open (my $file,"<","sample.txt") or die "the file doesn't exist!:\!";
 my @line=<$file>;
 my $sample= @line;
 my $sum=0;
